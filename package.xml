@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+    <name>wirecard_checkout_page</name>
+    <version>4.0.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License Version 2 (GPLv2)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Wirecard Checkout Page supports all popular payment methods and fulfills PCI DSS compliance.</summary>
+    <description>Wirecard Checkout Page is designed to meet the ambitious demands of merchants offering a wide range of payment methods while at the same time fulfilling PCI DSS compliance.&#xD;
+Wirecard Checkout Page offers:&#xD;
+National and international payment methods: credit cards, debit cards, online banking payments, mobile payment solutions and other alternative payment methods.&#xD;
+One interface for all payment methods.&#xD;
+Intuitive user interface in more than 25 languages and 120 currencies.&#xD;
+Layout and design customizable to meet the needs of our merchants (customized look-and-feel).&#xD;
+Payment page compatible with mobile devices.&#xD;
+Comprehensive range of effective fraud prevention tools.&#xD;
+PCI DSS 3 compliant, no PCI certification necessary for merchants.&#xD;
+Easy to add new payment methods, additional features, languages and currencies, etc.&#xD;
+Web interface for managing payments (approvals, cancelations, credits, etc.).&#xD;
+Benefit from Wirecard Bank&#xB4;s license to conclude credit card acceptance contracts (acquiring) and issue credit cards.&#xD;
+With Wirecard Collecting only a single contract is required for payouts within various payment methods.&#xD;
+Support of recurring payments (subscriptions, one-click checkout).&#xD;
+Our Online Guides provide technical documentation, installation and configuration instructions for the plugin as well as further information on payment methods and additional features: https://guides.wirecard.com/</description>
+    <notes>initial release</notes>
+    <authors><author><name>WirecardCEE</name><user>Customer</user><email>support.at@wirecard.com</email></author></authors>
+    <date>2016-01-27</date>
+    <time>10:00:00</time>
+    <contents></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
