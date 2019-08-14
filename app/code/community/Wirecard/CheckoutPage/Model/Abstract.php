@@ -53,7 +53,7 @@ abstract class Wirecard_CheckoutPage_Model_Abstract extends Mage_Payment_Model_M
     protected $_defaultLocale = 'en';
 
     protected $_order;
-    protected $_pluginVersion = '4.0.1';
+    protected $_pluginVersion = '4.0.2';
     protected $_pluginName = 'Wirecard/CheckoutPage';
 
     protected $_formBlockType = 'wirecard_checkoutpage/form';
@@ -192,7 +192,7 @@ abstract class Wirecard_CheckoutPage_Model_Abstract extends Mage_Payment_Model_M
             $bitem = new WirecardCEE_Stdlib_Basket_Item();
             $bitem->setArticleNumber('shipping');
             $bitem->setUnitPrice(number_format($order->getShippingAmount(), $precision, '.', ''));
-            $bitem->setTax(0);
+            $bitem->setTax(number_format($order->getShippingTaxAmount(), $precision, '.', ''));
             $bitem->setDescription($order->getShippingDescription());
             $basket->addItem($bitem);
 

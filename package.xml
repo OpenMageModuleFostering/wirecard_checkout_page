@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>wirecard_checkout_page</name>
-    <version>4.0.1</version>
+    <version>4.0.2</version>
     <stability>stable</stability>
     <license>GNU General Public License Version 2 (GPLv2)</license>
     <channel>community</channel>
@@ -24,7 +24,7 @@ Support of recurring payments (subscriptions, one-click checkout).&#xD;
 Our Online Guides provide technical documentation, installation and configuration instructions for the plugin as well as further information on payment methods and additional features: https://guides.wirecard.com/</description>
     <notes>initial release</notes>
     <authors><author><name>WirecardCEE</name><user>MAG002460406</user><email>shoplogins@wirecard.com</email></author></authors>
-    <date>2016-02-23</date>
+    <date>2016-03-02</date>
     <time>10:00:00</time>
     <contents></contents>
     <compatible/>
