@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/wirecard_checkout_page",
+    "name": "openmage-module-fostering\/wirecard_checkout_page",
     "type": "magento-module",
-    "license": "GNU-General-Public-License-Version-2-(GPLv2)",
+    "license": "GPL-2.0",
     "homepage": "",
     "description": "Wirecard Checkout Page supports all popular payment methods and fulfills PCI DSS compliance.",
     "authors": [
